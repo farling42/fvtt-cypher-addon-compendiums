@@ -1,50 +1,114 @@
 {
-  "name": "module",
-  "title": "New Module",
-  "description": "",
-  "version": "This is auto replaced",
-  "library": "false",
-  "manifestPlusVersion": "1.0.0",
-  "minimumCoreVersion": "9",
-  "compatibleCoreVersion": "9",
-  "authors": [
-    {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
-    }
-  ],
-  "dependencies": [
-
-  ],
-  "conflicts": [
-    
-  ],
-  "esmodules": [
-    "scripts/module.js"
-  ],
-  "scripts": [
-    "scripts/lib/lib.js"
-  ],
-  "styles": [
-    "styles/module.css"
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json"
-    }
-  ],
-  "url": "This is auto replaced",
-  "manifest": "This is auto replaced",
-  "download": "This is auto replaced",
-  "license": "LICENSE",
-  "readme": "README.md",
-  "media": [
-    {
-      "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
-    }
-  ]
+	"name": "cypher-addons-compendiums",
+	"title": "Cypher System Compendium - Types/Descriptors/Foci",
+	"description": "This module contains compendiums for the Cypher System game system. These compendiums contain journal entries for Types, Descriptors and Foci with links to the corresponding PDFs for the detailed description. There is also mark-up for use with the 'NICE(TSY) Cypher System Add-ons module' (https://github.com/NiceTSY/nice-cypher-add-ons).",
+	"library": "false",
+	"manifestPlusVersion": "1.0.0",
+	"minimumCoreVersion": "9",
+	"compatibleCoreVersion": "9",
+	"version": "This is auto replaced",
+	"url": "This is auto replaced",
+	"manifest": "This is auto replaced",
+	"download": "This is auto replaced",
+	"license": "LICENSE",
+	"readme": "README.md",
+	"systems": ["cyphersystem"],
+	"author": "Farling",
+    "authors": [
+        {
+            "name": "Farling",
+            "url": "https://github.com/farling42",
+            "email": "foundryvtt@amusingtime.uk",
+            "discord": "Farling#9579",
+            "ko-fi": "farling",
+            "patreon": "amusingtime",
+            "twitter": "@shambles42"
+        }
+    ],
+	"packs": [
+		{
+			"name": "cyphersystem-descriptors",
+			"label": "Cypher System: Descriptors",
+			"path": "./packs/cyphersystem-descriptors.db",
+			"entity": "JournalEntry"
+		},
+		{
+			"name": "cyphersystem-foci",
+			"label": "Cypher System: Foci",
+			"path": "./packs/cyphersystem-foci.db",
+			"entity": "JournalEntry"
+		},
+		{
+			"name": "cyphersystem-types",
+			"label": "Cypher System: Types",
+			"path": "./packs/cyphersystem-types.db",
+			"entity": "JournalEntry"
+		},
+		{
+			"name": "cyphersystem-flavors",
+			"label": "Cypher System: Flavors",
+			"path": "./packs/cyphersystem-flavors.db",
+			"entity": "JournalEntry"
+		},
+		{
+			"name": "claimthesky-descriptors",
+			"label": "Claim the Sky: Descriptors",
+			"path": "./packs/claimthesky-descriptors.db",
+			"entity": "JournalEntry"
+		},
+		{
+			"name": "claimthesky-foci",
+			"label": "Claim the Sky: Foci",
+			"path": "./packs/claimthesky-foci.db",
+			"entity": "JournalEntry"
+		},
+		{
+			"name": "firstresponders-foci",
+			"label": "First Responders: Foci",
+			"path": "./packs/firstresponders-foci.db",
+			"entity": "JournalEntry"
+		},
+		{
+			"name": "firstresponders-types",
+			"label": "First Responders: Types",
+			"path": "./packs/firstresponders-types.db",
+			"entity": "JournalEntry"
+		},
+		{
+			"name": "godforsaken-descriptors",
+			"label": "Godforsaken: Descriptors",
+			"path": "./packs/godforsaken-descriptors.db",
+			"entity": "JournalEntry"
+		},
+		{
+			"name": "godforsaken-foci",
+			"label": "Godforsaken: Foci",
+			"path": "./packs/godforsaken-foci.db",
+			"entity": "JournalEntry"
+		},
+		{
+			"name": "godforsaken-types",
+			"label": "Godforsaken: Types",
+			"path": "./packs/godforsaken-types.db",
+			"entity": "JournalEntry"
+		},
+		{
+			"name": "ptolus-foci",
+			"label": "Ptolus: Foci",
+			"path": "./packs/ptolus-foci.db",
+			"entity": "JournalEntry"
+		},
+		{
+			"name": "thestarsarefire-descriptors",
+			"label": "The Stars Are Fire: Descriptors",
+			"path": "./packs/thestarsarefire-descriptors.db",
+			"entity": "JournalEntry"
+		},
+		{
+			"name": "useful-macros",
+			"label": "Useful - Macros",
+			"path": "./packs/macros.db",
+			"entity": "Macro"
+		}
+	]
 }
