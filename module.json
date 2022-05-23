@@ -118,12 +118,6 @@
 			"label": "The Stars Are Fire: Descriptors",
 			"path": "./packs/thestarsarefire-descriptors.db",
 			"entity": "JournalEntry"
-		},
-		{
-			"name": "useful-macros",
-			"label": "Useful - Macros",
-			"path": "./packs/macros.db",
-			"entity": "Macro"
 		}
 	]
 }
