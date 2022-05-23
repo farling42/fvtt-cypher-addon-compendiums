@@ -1,7 +1,7 @@
 {
 	"name": "cypher-addons-compendiums",
 	"title": "Cypher System Character Creation Pack/Compendium",
-	"description": "This module contains compendiums for the Cypher System game system. These compendiums contain journal entries for Types, Descriptors and Foci with links to the corresponding PDFs for the detailed description. There is also mark-up for use with the 'NICE(TSY) Cypher System Add-ons module' (https://github.com/NiceTSY/nice-cypher-add-ons).",
+	"description": "A Compendium pack containing Sentence objects (Types, Descriptors, Foci, Flavors) for the Cypher System. It also provides flags for the Creation Tool of the 'NICE(TSY) Cypher System Add-Ons' module",
 	"library": "false",
 	"manifestPlusVersion": "1.0.0",
 	"minimumCoreVersion": "9",
