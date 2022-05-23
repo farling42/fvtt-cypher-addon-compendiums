@@ -9,13 +9,13 @@
 
 This is a module for use in conjunction with the [Cypher System game system for Foundry VTT](https://foundryvtt.com/packages/cyphersystem/).
 
-It builds on top of the [Cypher System Compendium](https://github.com/mrkwnzl/cyphersystem-compendium) to provide compendiums of journal entries for all the Types, Descriptors and Foci in the various books supported by the cyphersystem-compendium.
+It builds on top of the [Cypher System Compendium](https://github.com/mrkwnzl/cyphersystem-compendium) to provide compendiums of journal entries for all the Types, Descriptors and Foci in the various books supported by that compendium pack.
 
-Each journal entry contains a link to the PDF page containing the actual description of the ability, which makes use of the [PDFoundry](https://foundryvtt.com/packages/pdfoundry/) module to display the links and open the PDFs.
+Each journal entry contains a link to the PDF page containing the actual description of the ability. This uses the [PDFoundry](https://foundryvtt.com/packages/pdfoundry/) module to display the links and open the PDFs.
 
-For each type/descriptor/focus which contains abilities which are present in the cyphersystem-compendium, links are provided in the journal entries of this module to those abilities.
+For each type/descriptor/focus/flavor there is a link for each available ability to the abilities in the Cypher System Compendium.
 
-Additional markers are present which work with the [Nice(TSY) Cypher Add-Ons](https://github.com/NiceTSY/nice-cypher-add-ons) to help automatically add links to these journal entries and the creation tool within the NICE module.
+Additional markers are present which work with the Sentence Linking and Creation Tool of the [Nice(TSY) Cypher Add-Ons](https://github.com/NiceTSY/nice-cypher-add-ons) module.
 
 ## Hard Dependencies
 
