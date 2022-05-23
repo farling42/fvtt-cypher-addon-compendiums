@@ -1,6 +1,6 @@
 {
 	"name": "cypher-addons-compendiums",
-	"title": "Cypher System Compendium - Types/Descriptors/Foci",
+	"title": "Cypher System Character Creation Pack/Compendium",
 	"description": "This module contains compendiums for the Cypher System game system. These compendiums contain journal entries for Types, Descriptors and Foci with links to the corresponding PDFs for the detailed description. There is also mark-up for use with the 'NICE(TSY) Cypher System Add-ons module' (https://github.com/NiceTSY/nice-cypher-add-ons).",
 	"library": "false",
 	"manifestPlusVersion": "1.0.0",
@@ -25,6 +25,21 @@
             "twitter": "@shambles42"
         }
     ],
+	"dependencies" [
+		{
+			"name": "cyphersystem",
+			"type": "system",
+			"manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-foundryvtt/main/system.json"
+		},
+		{
+			"name": "cyphersystem-compendium",
+			"manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-compendium/main/module.json"
+		},
+		{
+			"name": "pdfoundry",
+			"manifest": "https://raw.githubusercontent.com/Djphoenix719/PDFoundry/master/module.json"
+		}
+	],
 	"packs": [
 		{
 			"name": "cyphersystem-descriptors",
