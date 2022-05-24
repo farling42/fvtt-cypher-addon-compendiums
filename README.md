@@ -17,6 +17,14 @@ For each type/descriptor/focus/flavor there is a link for each available ability
 
 Additional markers are present which work with the Sentence Linking and Creation Tool of the [Nice(TSY) Cypher Add-Ons](https://github.com/NiceTSY/nice-cypher-add-ons) module.
 
+## Installation
+
+The package should be available from the Add-On Modules, Install Module option of Foundry VTT.
+
+If you want to install it manually, then enter the following into the Manifest URL at the bottom of the "Install Module" window:
+
+https://github.com/farling42/fvtt-cypher-addons-compendiums/releases/latest/download/module.json
+
 ## Hard Dependencies
 
 [Cypher System Compendium](https://github.com/mrkwnzl/cyphersystem-compendium) provides compendiums of Items (such as abilities) which are linked from the sentence journal entries provided here. See this module for how to set up PDF documents to work with pages properly.
