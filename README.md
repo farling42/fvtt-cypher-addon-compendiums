@@ -9,7 +9,7 @@
 
 This is a module for use in conjunction with the [Cypher System game system for Foundry VTT](https://foundryvtt.com/packages/cyphersystem/).
 
-It builds on top of the [Cypher System Compendium](https://github.com/mrkwnzl/cyphersystem-compendium) to provide compendiums of journal entries for all the Types, Descriptors and Foci in the various books supported by that compendium pack.
+It works with the [Cypher System Compendium](https://github.com/mrkwnzl/cyphersystem-compendium) to provide compendiums of journal entries for all the Types, Descriptors and Foci in the various books supported by that compendium pack.
 
 Each journal entry contains a link to the PDF page containing the actual description of the ability. This uses the [PDFoundry](https://foundryvtt.com/packages/pdfoundry/) module to display the links and open the PDFs.
 
