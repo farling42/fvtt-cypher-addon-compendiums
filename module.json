@@ -1,19 +1,21 @@
 {
-	"name": "cypher-addons-compendiums",
-	"title": "Cypher System Character Creation Pack/Compendium",
-	"description": "A Compendium pack containing Sentence objects (Types, Descriptors, Foci, Flavors) for the Cypher System. It also provides flags for the Creation Tool of the 'NICE(TSY) Cypher System Add-Ons' module",
-	"library": "false",
-	"manifestPlusVersion": "1.0.0",
-	"minimumCoreVersion": "9",
-	"compatibleCoreVersion": "9",
-	"version": "This is auto replaced",
-	"url": "This is auto replaced",
-	"manifest": "This is auto replaced",
-	"download": "This is auto replaced",
-	"license": "LICENSE",
-	"readme": "README.md",
-	"systems": ["cyphersystem"],
-	"author": "Farling",
+    "name": "cypher-addons-compendiums",
+    "title": "Cypher System Character Creation Pack/Compendium",
+    "description": "A Compendium pack containing Sentence objects (Types, Descriptors, Foci, Flavors) for the Cypher System. It also provides flags for the Creation Tool of the 'NICE(TSY) Cypher System Add-Ons' module",
+    "library": "false",
+    "manifestPlusVersion": "1.0.0",
+    "minimumCoreVersion": "9",
+    "compatibleCoreVersion": "9",
+    "version": "0.1.3",
+    "url": "https://github.com/farling42/fvtt-cypher-addons-compendiums",
+    "manifest": "https://github.com/farling42/fvtt-cypher-addons-compendiums/releases/latest/download/module.json",
+    "download": "https://github.com/farling42/fvtt-cypher-addons-compendiums/releases/download/0.1.3/module.zip",
+    "license": "LICENSE",
+    "readme": "README.md",
+    "systems": [
+        "cyphersystem"
+    ],
+    "author": "Farling",
     "authors": [
         {
             "name": "Farling",
@@ -25,99 +27,99 @@
             "twitter": "@shambles42"
         }
     ],
-	"dependencies": [
-		{
-			"name": "cyphersystem",
-			"type": "system",
-			"manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-foundryvtt/main/system.json"
-		},
-		{
-			"name": "cyphersystem-compendium",
-			"manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-compendium/main/module.json"
-		},
-		{
-			"name": "pdfoundry",
-			"manifest": "https://raw.githubusercontent.com/Djphoenix719/PDFoundry/master/module.json"
-		}
-	],
-	"packs": [
-		{
-			"name": "cyphersystem-descriptors",
-			"label": "Descriptors: Cypher System",
-			"path": "./packs/cyphersystem-descriptors.db",
-			"entity": "JournalEntry"
-		},
-		{
-			"name": "cyphersystem-foci",
-			"label": "Foci: Cypher System",
-			"path": "./packs/cyphersystem-foci.db",
-			"entity": "JournalEntry"
-		},
-		{
-			"name": "cyphersystem-types",
-			"label": "Types: Cypher System",
-			"path": "./packs/cyphersystem-types.db",
-			"entity": "JournalEntry"
-		},
-		{
-			"name": "cyphersystem-flavors",
-			"label": "Flavors: Cypher System",
-			"path": "./packs/cyphersystem-flavors.db",
-			"entity": "JournalEntry"
-		},
-		{
-			"name": "claimthesky-descriptors",
-			"label": "Descriptors: Claim the Sky",
-			"path": "./packs/claimthesky-descriptors.db",
-			"entity": "JournalEntry"
-		},
-		{
-			"name": "claimthesky-foci",
-			"label": "Foci: Claim the Sky",
-			"path": "./packs/claimthesky-foci.db",
-			"entity": "JournalEntry"
-		},
-		{
-			"name": "firstresponders-foci",
-			"label": "Foci: First Responders",
-			"path": "./packs/firstresponders-foci.db",
-			"entity": "JournalEntry"
-		},
-		{
-			"name": "firstresponders-types",
-			"label": "Types: First Responders",
-			"path": "./packs/firstresponders-types.db",
-			"entity": "JournalEntry"
-		},
-		{
-			"name": "godforsaken-descriptors",
-			"label": "Descriptors: Godforsaken",
-			"path": "./packs/godforsaken-descriptors.db",
-			"entity": "JournalEntry"
-		},
-		{
-			"name": "godforsaken-foci",
-			"label": "Foci: Godforsaken",
-			"path": "./packs/godforsaken-foci.db",
-			"entity": "JournalEntry"
-		},
-		{
-			"name": "godforsaken-types",
-			"label": "Types: Godforsaken",
-			"path": "./packs/godforsaken-types.db",
-			"entity": "JournalEntry"
-		},
-		{
-			"name": "ptolus-foci",
-			"label": "Foci: Ptolus",
-			"path": "./packs/ptolus-foci.db",
-			"entity": "JournalEntry"
-		},
-		{
-			"name": "thestarsarefire-descriptors",
-			"label": "Descriptors: The Stars Are Fire",
-			"path": "./packs/thestarsarefire-descriptors.db",
-			"entity": "JournalEntry"
-		}
-	]
+    "dependencies": [
+        {
+            "name": "cyphersystem",
+            "type": "system",
+            "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-foundryvtt/main/system.json"
+        },
+        {
+            "name": "cyphersystem-compendium",
+            "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-compendium/main/module.json"
+        },
+        {
+            "name": "pdfoundry",
+            "manifest": "https://raw.githubusercontent.com/Djphoenix719/PDFoundry/master/module.json"
+        }
+    ],
+    "packs": [
+        {
+            "name": "cyphersystem-descriptors",
+            "label": "Descriptors: Cypher System",
+            "path": "./packs/cyphersystem-descriptors.db",
+            "entity": "JournalEntry"
+        },
+        {
+            "name": "cyphersystem-foci",
+            "label": "Foci: Cypher System",
+            "path": "./packs/cyphersystem-foci.db",
+            "entity": "JournalEntry"
+        },
+        {
+            "name": "cyphersystem-types",
+            "label": "Types: Cypher System",
+            "path": "./packs/cyphersystem-types.db",
+            "entity": "JournalEntry"
+        },
+        {
+            "name": "cyphersystem-flavors",
+            "label": "Flavors: Cypher System",
+            "path": "./packs/cyphersystem-flavors.db",
+            "entity": "JournalEntry"
+        },
+        {
+            "name": "claimthesky-descriptors",
+            "label": "Descriptors: Claim the Sky",
+            "path": "./packs/claimthesky-descriptors.db",
+            "entity": "JournalEntry"
+        },
+        {
+            "name": "claimthesky-foci",
+            "label": "Foci: Claim the Sky",
+            "path": "./packs/claimthesky-foci.db",
+            "entity": "JournalEntry"
+        },
+        {
+            "name": "firstresponders-foci",
+            "label": "Foci: First Responders",
+            "path": "./packs/firstresponders-foci.db",
+            "entity": "JournalEntry"
+        },
+        {
+            "name": "firstresponders-types",
+            "label": "Types: First Responders",
+            "path": "./packs/firstresponders-types.db",
+            "entity": "JournalEntry"
+        },
+        {
+            "name": "godforsaken-descriptors",
+            "label": "Descriptors: Godforsaken",
+            "path": "./packs/godforsaken-descriptors.db",
+            "entity": "JournalEntry"
+        },
+        {
+            "name": "godforsaken-foci",
+            "label": "Foci: Godforsaken",
+            "path": "./packs/godforsaken-foci.db",
+            "entity": "JournalEntry"
+        },
+        {
+            "name": "godforsaken-types",
+            "label": "Types: Godforsaken",
+            "path": "./packs/godforsaken-types.db",
+            "entity": "JournalEntry"
+        },
+        {
+            "name": "ptolus-foci",
+            "label": "Foci: Ptolus",
+            "path": "./packs/ptolus-foci.db",
+            "entity": "JournalEntry"
+        },
+        {
+            "name": "thestarsarefire-descriptors",
+            "label": "Descriptors: The Stars Are Fire",
+            "path": "./packs/thestarsarefire-descriptors.db",
+            "entity": "JournalEntry"
+        }
+    ]
 }
