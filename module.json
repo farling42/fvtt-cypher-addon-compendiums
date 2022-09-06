@@ -133,6 +133,13 @@
             "path": "./packs/thestarsarefire-descriptors.db",
             "entity": "JournalEntry",
             "type": "JournalEntry"
-        }
+        },
+        {
+            "name": "macros",
+            "label": "Utility Macros",
+            "path": "./packs/macros.db",
+            "entity": "Macro",
+            "type": "Macro"
+        }		
     ]
 }
