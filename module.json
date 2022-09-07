@@ -1,7 +1,7 @@
 {
     "name": "cypher-addons-compendiums",
-    "title": "Cypher System Character Creation Pack/Compendium",
-    "description": "A Compendium pack containing Sentence objects (Types, Descriptors, Foci, Flavors) for the Cypher System. It also provides flags for the Creation Tool of the 'NICE(TSY) Cypher System Add-Ons' module",
+    "title": "CSRD Character Creation Pack/Compendium",
+    "description": "A Compendium pack containing Sentence objects (Types, Descriptors, Foci, Flavors) for the CSRD of the Cypher System. It also provides flags for the Creation Tool of the 'NICE(TSY) Cypher System Add-Ons' module",
     "library": "false",
     "manifestPlusVersion": "1.0.0",
     "minimumCoreVersion": "9",
@@ -68,69 +68,6 @@
             "name": "cyphersystem-flavors",
             "label": "Flavors: Cypher System",
             "path": "./packs/cyphersystem-flavors.db",
-            "entity": "JournalEntry",
-            "type": "JournalEntry"
-        },
-        {
-            "name": "claimthesky-descriptors",
-            "label": "Descriptors: Claim the Sky",
-            "path": "./packs/claimthesky-descriptors.db",
-            "entity": "JournalEntry",
-            "type": "JournalEntry"
-        },
-        {
-            "name": "claimthesky-foci",
-            "label": "Foci: Claim the Sky",
-            "path": "./packs/claimthesky-foci.db",
-            "entity": "JournalEntry",
-            "type": "JournalEntry"
-        },
-        {
-            "name": "firstresponders-foci",
-            "label": "Foci: First Responders",
-            "path": "./packs/firstresponders-foci.db",
-            "entity": "JournalEntry",
-            "type": "JournalEntry"
-        },
-        {
-            "name": "firstresponders-types",
-            "label": "Types: First Responders",
-            "path": "./packs/firstresponders-types.db",
-            "entity": "JournalEntry",
-            "type": "JournalEntry"
-        },
-        {
-            "name": "godforsaken-descriptors",
-            "label": "Descriptors: Godforsaken",
-            "path": "./packs/godforsaken-descriptors.db",
-            "entity": "JournalEntry",
-            "type": "JournalEntry"
-        },
-        {
-            "name": "godforsaken-foci",
-            "label": "Foci: Godforsaken",
-            "path": "./packs/godforsaken-foci.db",
-            "entity": "JournalEntry",
-            "type": "JournalEntry"
-        },
-        {
-            "name": "godforsaken-types",
-            "label": "Types: Godforsaken",
-            "path": "./packs/godforsaken-types.db",
-            "entity": "JournalEntry",
-            "type": "JournalEntry"
-        },
-        {
-            "name": "ptolus-foci",
-            "label": "Foci: Ptolus",
-            "path": "./packs/ptolus-foci.db",
-            "entity": "JournalEntry",
-            "type": "JournalEntry"
-        },
-        {
-            "name": "thestarsarefire-descriptors",
-            "label": "Descriptors: The Stars Are Fire",
-            "path": "./packs/thestarsarefire-descriptors.db",
             "entity": "JournalEntry",
             "type": "JournalEntry"
         },
