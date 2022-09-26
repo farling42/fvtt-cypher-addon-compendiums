@@ -36,10 +36,6 @@
         {
             "name": "cyphersystem-compendium",
             "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-compendium/main/module.json"
-        },
-        {
-            "name": "pdfoundry",
-            "manifest": "https://raw.githubusercontent.com/Djphoenix719/PDFoundry/master/module.json"
         }
     ],
     "packs": [
