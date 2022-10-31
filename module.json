@@ -1,15 +1,19 @@
 {
+    "id": "cypher-addons-compendiums",
     "name": "cypher-addons-compendiums",
     "title": "CSRD Character Creation Pack/Compendium",
     "description": "A Compendium pack containing Sentence objects (Types, Descriptors, Foci, Flavors) for the CSRD of the Cypher System. It also provides flags for the Creation Tool of the 'NICE(TSY) Cypher System Add-Ons' module",
     "library": "false",
     "manifestPlusVersion": "1.0.0",
-    "minimumCoreVersion": "9",
-    "compatibleCoreVersion": "9",
-    "version": "0.1.3",
+    "minimumCoreVersion": "10",
+    "compatibility": {
+        "minimum": "10",
+        "verified": "10.288"
+    },
+    "version": "0.3.0",
     "url": "https://github.com/farling42/fvtt-cypher-addons-compendiums",
     "manifest": "https://github.com/farling42/fvtt-cypher-addons-compendiums/releases/latest/download/module.json",
-    "download": "https://github.com/farling42/fvtt-cypher-addons-compendiums/releases/download/0.1.3/module.zip",
+    "download": "https://github.com/farling42/fvtt-cypher-addons-compendiums/releases/download/0.2.2/module.zip",
     "license": "LICENSE",
     "readme": "README.md",
     "system": [
@@ -27,17 +31,23 @@
             "twitter": "@shambles42"
         }
     ],
-    "dependencies": [
-        {
-            "name": "cyphersystem",
+    "relationships": {
+        "systems": [{
+            "id": "cyphersystem",
             "type": "system",
-            "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-foundryvtt/main/system.json"
-        },
-        {
-            "name": "cyphersystem-compendium",
-            "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-compendium/main/module.json"
-        }
-    ],
+            "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-foundryvtt/main/system.json",
+            "compatibility": {
+                "verified": "2.0.0"
+            }
+        }],
+        "requires": [
+            {
+                "id": "cyphersystem-compendium",
+                "type": "module",
+                "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-compendium/main/module.json"
+            }
+        ]
+    },
     "packs": [
         {
             "name": "cyphersystem-descriptors",
@@ -73,6 +83,6 @@
             "path": "./packs/macros.db",
             "entity": "Macro",
             "type": "Macro"
-        }		
+        }
     ]
 }
