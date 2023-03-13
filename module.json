@@ -1,88 +1,80 @@
 {
-    "id": "cypher-addons-compendiums",
-    "name": "cypher-addons-compendiums",
-    "title": "CSRD Character Creation Pack/Compendium",
-    "description": "A Compendium pack containing Sentence objects (Types, Descriptors, Foci, Flavors) for the CSRD of the Cypher System. It also provides flags for the Creation Tool of the 'NICE(TSY) Cypher System Add-Ons' module",
-    "library": "false",
-    "manifestPlusVersion": "1.0.0",
-    "minimumCoreVersion": "10",
-    "compatibility": {
-        "minimum": "10",
-        "verified": "10.288"
-    },
-    "version": "0.3.0",
-    "url": "https://github.com/farling42/fvtt-cypher-addons-compendiums",
-    "manifest": "https://github.com/farling42/fvtt-cypher-addons-compendiums/releases/latest/download/module.json",
-    "download": "https://github.com/farling42/fvtt-cypher-addons-compendiums/releases/download/0.2.2/module.zip",
-    "license": "LICENSE",
-    "readme": "README.md",
-    "system": [
-        "cyphersystem"
-    ],
-    "author": "Farling",
-    "authors": [
-        {
-            "name": "Farling",
-            "url": "https://github.com/farling42",
-            "email": "foundryvtt@amusingtime.uk",
-            "discord": "Farling#9579",
-            "ko-fi": "farling",
-            "patreon": "amusingtime",
-            "twitter": "@shambles42"
+  "id": "cypher-addons-compendiums",
+  "name": "cypher-addons-compendiums",
+  "title": "CSRD Character Creation Pack/Compendium",
+  "description": "A Compendium pack containing Sentence objects (Types, Descriptors, Foci, Flavors) for the CSRD of the Cypher System. It also provides flags for the Creation Tool of the 'NICE(TSY) Cypher System Add-Ons' module",
+  "minimumCoreVersion": "10",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.288"
+  },
+  "version": "0.3.0",
+  "url": "https://github.com/farling42/fvtt-cypher-addons-compendiums",
+  "manifest": "https://github.com/farling42/fvtt-cypher-addons-compendiums/releases/latest/download/module.json",
+  "download": "https://github.com/farling42/fvtt-cypher-addons-compendiums/releases/download/0.3.0/module.zip",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "authors": [
+    {
+      "name": "Farling",
+      "url": "https://github.com/farling42",
+      "email": "foundryvtt@amusingtime.uk",
+      "discord": "Farling#9579",
+	  "ko-fi": "farling",
+      "patreon": "amusingtime",
+      "twitter": "@shambles42"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "cyphersystem",
+        "type": "system",
+        "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-foundryvtt/main/system.json",
+        "compatibility": {
+          "verified": "2.0.0"
         }
+      }
     ],
-    "relationships": {
-        "systems": [{
-            "id": "cyphersystem",
-            "type": "system",
-            "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-foundryvtt/main/system.json",
-            "compatibility": {
-                "verified": "2.0.0"
-            }
-        }],
-        "requires": [
-            {
-                "id": "cyphersystem-compendium",
-                "type": "module",
-                "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-compendium/main/module.json"
-            }
-        ]
-    },
-    "packs": [
-        {
-            "name": "cyphersystem-descriptors",
-            "label": "Descriptors: Cypher System",
-            "path": "./packs/cyphersystem-descriptors.db",
-            "entity": "JournalEntry",
-            "type": "JournalEntry"
-        },
-        {
-            "name": "cyphersystem-foci",
-            "label": "Foci: Cypher System",
-            "path": "./packs/cyphersystem-foci.db",
-            "entity": "JournalEntry",
-            "type": "JournalEntry"
-        },
-        {
-            "name": "cyphersystem-types",
-            "label": "Types: Cypher System",
-            "path": "./packs/cyphersystem-types.db",
-            "entity": "JournalEntry",
-            "type": "JournalEntry"
-        },
-        {
-            "name": "cyphersystem-flavors",
-            "label": "Flavors: Cypher System",
-            "path": "./packs/cyphersystem-flavors.db",
-            "entity": "JournalEntry",
-            "type": "JournalEntry"
-        },
-        {
-            "name": "macros",
-            "label": "Utility Macros",
-            "path": "./packs/macros.db",
-            "entity": "Macro",
-            "type": "Macro"
-        }
+    "requires": [
+      {
+        "id": "cyphersystem-compendium",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-compendium/main/module.json"
+      }
     ]
+  },
+  "packs": [
+    {
+      "name": "cyphersystem-descriptors",
+      "label": "Descriptors: Cypher System",
+      "path": "packs/cyphersystem-descriptors.db",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "cyphersystem-foci",
+      "label": "Foci: Cypher System",
+      "path": "packs/cyphersystem-foci.db",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "cyphersystem-types",
+      "label": "Types: Cypher System",
+      "path": "packs/cyphersystem-types.db",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "cyphersystem-flavors",
+      "label": "Flavors: Cypher System",
+      "path": "packs/cyphersystem-flavors.db",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "macros",
+      "label": "Utility Macros",
+      "path": "packs/macros.db",
+      "type": "Macro",
+      "system": "cyphersystem"
+    }
+  ]
 }
